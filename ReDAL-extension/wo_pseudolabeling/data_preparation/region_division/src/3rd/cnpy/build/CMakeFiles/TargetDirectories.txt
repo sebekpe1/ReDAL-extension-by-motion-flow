@@ -1,0 +1,9 @@
+/home/student/Desktop/sebekpe1/ReDAL-main/data_preparation/region_division/src/3rd/cnpy/build/CMakeFiles/install/strip.dir
+/home/student/Desktop/sebekpe1/ReDAL-main/data_preparation/region_division/src/3rd/cnpy/build/CMakeFiles/edit_cache.dir
+/home/student/Desktop/sebekpe1/ReDAL-main/data_preparation/region_division/src/3rd/cnpy/build/CMakeFiles/install/local.dir
+/home/student/Desktop/sebekpe1/ReDAL-main/data_preparation/region_division/src/3rd/cnpy/build/CMakeFiles/example1.dir
+/home/student/Desktop/sebekpe1/ReDAL-main/data_preparation/region_division/src/3rd/cnpy/build/CMakeFiles/cnpy-static.dir
+/home/student/Desktop/sebekpe1/ReDAL-main/data_preparation/region_division/src/3rd/cnpy/build/CMakeFiles/install.dir
+/home/student/Desktop/sebekpe1/ReDAL-main/data_preparation/region_division/src/3rd/cnpy/build/CMakeFiles/list_install_components.dir
+/home/student/Desktop/sebekpe1/ReDAL-main/data_preparation/region_division/src/3rd/cnpy/build/CMakeFiles/rebuild_cache.dir
+/home/student/Desktop/sebekpe1/ReDAL-main/data_preparation/region_division/src/3rd/cnpy/build/CMakeFiles/cnpy.dir
