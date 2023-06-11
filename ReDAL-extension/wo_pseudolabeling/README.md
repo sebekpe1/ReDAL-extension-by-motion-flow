@@ -4,8 +4,6 @@ Official pytorch implementation of ["ReDAL: Region-based and Diversity-aware Act
 In this work, we present **ReDAL**, a general active learning framework for point cloud semantic segmentation. By selecting only informative but diverse regions for label acquisition, the labeling effort can be hugely reduced.
 Here shows a demo video.
 
-https://user-images.githubusercontent.com/22555914/134839515-93f6523f-994f-4b22-b0ae-d8b554357f26.mp4
-
 
 ## Environmental Setup
 
@@ -59,18 +57,20 @@ CUDA_VISIBLE_DEVICES=X python3 train_scene_active.py -n <dataset> -d <dataset-pa
                         --active_selection_size <number of scene labels per query> [--distributed_training]
 ```
 
-### C. Region-based Active Learning
+### C. Region-based Active Learning (CHANGED BY OUR EXTENSION)
 
 - The script supports multiple region-based active learning strategies, which selects a batch of divided sub-scene regions for label acquisition in an active iteration.
 - Supported active\_method flags: `["random", "softmax_confidence", "softmax_margin", "softmax_entropy", "mc_dropout", "ReDAL"]`.
-- **ReDAL** is our proposed method.
+- **ReDAL** is original proposed method.
+- We added flags: `["ORG", "GT", "MF"]`
+- **GT** and **MF** is our extension methods based on GT annotations or Motion flow predictions.
 
 ```shell
 CUDA_VISIBLE_DEVICES=X python3 train_region_active.py -n <dataset> -d <dataset-path> -p <stored-ckpt-directory> \
                         -m <model-backbone> --train_batch_size <train-batch-size> --val_batch_size <val-batch-size> \
                         --ignore_idx <invalid-category-idx> --training-epoch <epochs> --finetune-epoch <epochs> \
                         --active_method <valid-active-method> --max_iterations <AL iterations> \
-                        --active_percent <percent of labels per query> [--distributed_training]
+                        --active_percent <percent of labels per query> [--distributed_training] --mode <mode of extension>
 ```
 
 
