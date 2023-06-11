@@ -6,4 +6,6 @@ This extension creates semanticaly pure regions for dynamic objects and link the
 
 This repo supports SemanticKITTI and Waymo Open Dataset datasets.
 
-At first please create data preparation, which is provided in original implementation of the ReDAL method [this documentation](ReDAL-extension/w_pseudolabeling/data_preparation).
+At first create data preparation, which is provided in original implementation of the ReDAL method please see [this documentation](ReDAL-extension/w_pseudolabeling/data_preparation).
+
+In next step follow instruction in README for [SemanticKITTI](preprocessing/semantic_kitti) or [Waymo Open Dataset](preprocessing/waymo)
