@@ -70,7 +70,8 @@ CUDA_VISIBLE_DEVICES=X python3 train_region_active.py -n <dataset> -d <dataset-p
                         -m <model-backbone> --train_batch_size <train-batch-size> --val_batch_size <val-batch-size> \
                         --ignore_idx <invalid-category-idx> --training-epoch <epochs> --finetune-epoch <epochs> \
                         --active_method <valid-active-method> --max_iterations <AL iterations> \
-                        --active_percent <percent of labels per query> [--distributed_training] --mode <mode of extension>
+                        --active_percent <percent of labels per query> [--distributed_training] \
+                        --mode <mode of extension>
 ```
 
 
