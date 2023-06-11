@@ -104,7 +104,7 @@ if __name__ == '__main__':
 
     # basic
 
-    parser.add_argument('-n', '--name', choices=['s3dis', 'semantic_kitti', 'scannet'], default='s3dis',
+    parser.add_argument('-n', '--name', choices=['s3dis', 'semantic_kitti', 'scannet', 'waymo'], default='s3dis',
                         help='training dataset (default: s3dis)')
     parser.add_argument('-d', '--data_dir', default='/tmp2/tsunghan/S3DIS_processed/')
     parser.add_argument('-p', '--model_save_dir', default='./test')
