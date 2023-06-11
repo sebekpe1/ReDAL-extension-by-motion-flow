@@ -4,8 +4,6 @@ Official pytorch implementation of ["ReDAL: Region-based and Diversity-aware Act
 In this work, we present **ReDAL**, a general active learning framework for point cloud semantic segmentation. By selecting only informative but diverse regions for label acquisition, the labeling effort can be hugely reduced.
 Here shows a demo video.
 
-https://user-images.githubusercontent.com/22555914/134839515-93f6523f-994f-4b22-b0ae-d8b554357f26.mp4
-
 
 ## Environmental Setup
 
