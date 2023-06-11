@@ -57,11 +57,13 @@ CUDA_VISIBLE_DEVICES=X python3 train_scene_active.py -n <dataset> -d <dataset-pa
                         --active_selection_size <number of scene labels per query> [--distributed_training]
 ```
 
-### C. Region-based Active Learning
+### C. Region-based Active Learning (CHANGED BY OUR EXTENSION)
 
 - The script supports multiple region-based active learning strategies, which selects a batch of divided sub-scene regions for label acquisition in an active iteration.
 - Supported active\_method flags: `["random", "softmax_confidence", "softmax_margin", "softmax_entropy", "mc_dropout", "ReDAL"]`.
-- **ReDAL** is our proposed method.
+- **ReDAL** is original proposed method.
+- We added flags: `["ORG", "GT", "MF"]`
+- **GT** and **MF** is our extension methods based on GT annotations or Motion flow predictions.
 
 ```shell
 CUDA_VISIBLE_DEVICES=X python3 train_region_active.py -n <dataset> -d <dataset-path> -p <stored-ckpt-directory> \
