@@ -2,6 +2,8 @@
 
 This extension creates semanticaly pure regions for dynamic objects and link them through time, therefore it is possible to propagate annotations of these objects to entire sequence.
 
+The full master thesis can be found at [CTU DSpace](https://dspace.cvut.cz/handle/10467/108586)
+
 ## Data Preparation
 
 This repo supports SemanticKITTI and Waymo Open Dataset datasets.
